@@ -5,7 +5,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - MONGODB_URI=mongodb://mongo:27017/gestion-entreprises
+      - MONGODB_URI=mongodb://user:password@mongo:27017/gestion-entreprises
     depends_on:
       - mongo
 
