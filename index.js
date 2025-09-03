@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
   .catch(err => console.error('Erreur de connexion à MongoDB:', err));
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans le Système de Gestion d'Entreprises!');
+  res.send('Bienvenue dans le Système de Gestion d\'Entreprises!');
 });
 
 app.listen(PORT, () => {
